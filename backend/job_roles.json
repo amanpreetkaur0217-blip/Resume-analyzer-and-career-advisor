@@ -1,0 +1,588 @@
+{
+  "roles": {
+    "Full Stack Developer": {
+      "id": "full-stack-developer",
+      "title": "Full Stack Developer",
+      "description": "Designs and develops both client-facing frontend applications and scalable backend web services.",
+      "category": "Software Engineering",
+      "required_skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST API",
+        "Git"
+      ],
+      "preferred_skills": [
+        "TypeScript",
+        "Next.js",
+        "SQL",
+        "PostgreSQL",
+        "Docker",
+        "Tailwind CSS",
+        "Redux",
+        "GraphQL",
+        "AWS"
+      ],
+      "soft_skills": [
+        "Problem Solving",
+        "Agile Methodology",
+        "Communication",
+        "Code Review",
+        "Collaboration"
+      ],
+      "roadmap_catalog": {
+        "JavaScript": {
+          "weeks": "Week 1-2",
+          "title": "JavaScript Fundamentals & ES6+",
+          "description": "Master core JS concepts: closures, promises, event loop, async/await, DOM manipulation, and modern ES6+ syntax.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+            { "name": "JavaScript.info", "url": "https://javascript.info/" }
+          ],
+          "milestone_project": "Build an interactive CRUD Task Dashboard using vanilla JS and Fetch API."
+        },
+        "React": {
+          "weeks": "Week 3-4",
+          "title": "React.js Component Architecture & State Management",
+          "description": "Learn functional components, Hooks (useState, useEffect, useContext), custom hooks, routing, and component lifecycles.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Official React Documentation", "url": "https://react.dev" },
+            { "name": "freeCodeCamp React Course", "url": "https://www.freecodecamp.org" }
+          ],
+          "milestone_project": "Build a responsive E-commerce Product Catalog with filtering, cart, and checkout flow."
+        },
+        "Node.js": {
+          "weeks": "Week 5-6",
+          "title": "Node.js & Backend Architecture",
+          "description": "Understand asynchronous event-driven I/O, Node core modules, file system, streams, and npm ecosystem.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Node.js Official Documentation", "url": "https://nodejs.org/docs" },
+            { "name": "Node.js Design Patterns", "url": "https://nodejs.org" }
+          ],
+          "milestone_project": "Create a command-line automated CLI utility and a background file-processing script."
+        },
+        "Express.js": {
+          "weeks": "Week 5-6",
+          "title": "Express.js REST API Development",
+          "description": "Design modular routing, custom middleware, error handling, JWT authentication, and request validation.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Express.js Guide", "url": "https://expressjs.com/" }
+          ],
+          "milestone_project": "Develop a secure REST API with JWT Auth, rate limiting, and input sanitization."
+        },
+        "MongoDB": {
+          "weeks": "Week 7-8",
+          "title": "MongoDB & NoSQL Database Modeling",
+          "description": "Master document schemas, Mongoose ODM, aggregation pipelines, indexing, and data validation.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "MongoDB University", "url": "https://learn.mongodb.com" }
+          ],
+          "milestone_project": "Design a relational-like schema with subdocuments and write aggregations for analytics."
+        },
+        "REST API": {
+          "weeks": "Week 5-6",
+          "title": "RESTful API Standards & API Architecture",
+          "description": "Learn HTTP status codes, API versioning, CORS handling, OpenAPI/Swagger specifications, and Postman testing.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "REST API Tutorial", "url": "https://restfulapi.net/" }
+          ],
+          "milestone_project": "Document and publish a full Swagger/OpenAPI spec for your backend endpoints."
+        },
+        "Git": {
+          "weeks": "Week 1",
+          "title": "Git & GitHub Version Control",
+          "description": "Master branch management, pull requests, resolving merge conflicts, and standard commit workflows.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "Pro Git Book", "url": "https://git-scm.com/book/en/v2" }
+          ],
+          "milestone_project": "Contribute to an open-source repository following PR guidelines and Gitflow."
+        },
+        "HTML": {
+          "weeks": "Week 1",
+          "title": "Semantic HTML5 & Accessibility",
+          "description": "Learn semantic elements, accessibility (WCAG/ARIA), meta tags, and structured SEO markup.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "web.dev HTML Basics", "url": "https://web.dev/learn/html/" }
+          ],
+          "milestone_project": "Create an accessible landing page conforming to WCAG AA standards."
+        },
+        "CSS": {
+          "weeks": "Week 1-2",
+          "title": "Modern CSS3, Flexbox & Grid",
+          "description": "Master responsive layouts using Flexbox, CSS Grid, media queries, CSS variables, and modern styling utilities.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "CSS Tricks Flexbox Guide", "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" }
+          ],
+          "milestone_project": "Design a complex responsive multi-column dashboard with dark/light themes."
+        },
+        "Docker": {
+          "weeks": "Week 9-10",
+          "title": "Containerization with Docker",
+          "description": "Containerize full stack applications with Dockerfile, multi-stage builds, and Docker Compose.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "Docker Docs", "url": "https://docs.docker.com/" }
+          ],
+          "milestone_project": "Containerize frontend, backend, and MongoDB database with one docker-compose.yml."
+        }
+      }
+    },
+    "Python Developer": {
+      "id": "python-developer",
+      "title": "Python Developer",
+      "description": "Specializes in building robust backend services, APIs, data pipelines, and automation tools using Python.",
+      "category": "Backend Engineering",
+      "required_skills": [
+        "Python",
+        "Flask",
+        "Django",
+        "SQL",
+        "REST API",
+        "Git",
+        "OOP"
+      ],
+      "preferred_skills": [
+        "FastAPI",
+        "PostgreSQL",
+        "Celery",
+        "Redis",
+        "Docker",
+        "PyTest",
+        "SQLAlchemy",
+        "Linux",
+        "AWS"
+      ],
+      "soft_skills": [
+        "Analytical Thinking",
+        "Debugging",
+        "System Architecture",
+        "Problem Solving",
+        "Collaboration"
+      ],
+      "roadmap_catalog": {
+        "Python": {
+          "weeks": "Week 1-2",
+          "title": "Advanced Python & Idiomatic Coding",
+          "description": "Master generators, decorators, context managers, list comprehensions, and typing in Python.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Real Python Tutorials", "url": "https://realpython.com/" },
+            { "name": "Official Python Docs", "url": "https://docs.python.org/3/" }
+          ],
+          "milestone_project": "Build an asynchronous log analysis parser using Python generators and multiprocessing."
+        },
+        "OOP": {
+          "weeks": "Week 2-3",
+          "title": "Object-Oriented Programming & Design Patterns",
+          "description": "Master SOLID principles, encapsulation, polymorphism, inheritance, and patterns (Factory, Singleton, Observer).",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Refactoring Guru - Design Patterns", "url": "https://refactoring.guru/design-patterns" }
+          ],
+          "milestone_project": "Build an extensible payment gateway simulator using OOP design patterns."
+        },
+        "Flask": {
+          "weeks": "Week 4-5",
+          "title": "Flask Microframework Architecture",
+          "description": "Build lightweight microservices, application factories, blueprints, and database integrations with SQLAlchemy.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Flask Mega-Tutorial", "url": "https://blog.miguelgrinberg.com/" }
+          ],
+          "milestone_project": "Create a multi-tenant REST API with Blueprints, JWT tokens, and rate-limiting."
+        },
+        "Django": {
+          "weeks": "Week 6-8",
+          "title": "Django & Django REST Framework (DRF)",
+          "description": "Master Django ORM, migrations, serializers, generic views, authentication, and the built-in admin dashboard.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Django Girls Tutorial", "url": "https://tutorial.djangogirls.org/" },
+            { "name": "Django REST Framework Docs", "url": "https://www.django-rest-framework.org/" }
+          ],
+          "milestone_project": "Develop a role-based SaaS platform backend with Django REST Framework."
+        },
+        "SQL": {
+          "weeks": "Week 3-4",
+          "title": "Relational Databases & SQL Optimization",
+          "description": "Write complex multi-table joins, subqueries, indexing, window functions, and schema normalization.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "SQLZoo Interactive SQL", "url": "https://sqlzoo.net/" }
+          ],
+          "milestone_project": "Analyze an e-commerce transactional database with indexed queries and performance benchmarks."
+        },
+        "REST API": {
+          "weeks": "Week 5",
+          "title": "API Design & Serialization",
+          "description": "Implement standard RESTful endpoints, error formatting, swagger documentation, and automated tests with PyTest.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "RESTful API Best Practices", "url": "https://restfulapi.net/" }
+          ],
+          "milestone_project": "Build an API test suite with Pytest, mock fixtures, and coverage reports."
+        },
+        "Git": {
+          "weeks": "Week 1",
+          "title": "Git Branching & Collaborative Workflows",
+          "description": "Learn semantic versioning, rebasing, squashing commits, and GitHub Actions CI pipelines.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "Git Documentation", "url": "https://git-scm.com/docs" }
+          ],
+          "milestone_project": "Set up a GitHub Actions workflow that runs PyTest on every pull request."
+        }
+      }
+    },
+    "Data Analyst": {
+      "id": "data-analyst",
+      "title": "Data Analyst",
+      "description": "Transforms raw structured and unstructured data into meaningful insights, reports, and interactive dashboards.",
+      "category": "Data & Analytics",
+      "required_skills": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Pandas",
+        "NumPy",
+        "Statistics",
+        "Data Visualization"
+      ],
+      "preferred_skills": [
+        "Tableau",
+        "Matplotlib",
+        "Seaborn",
+        "ETL",
+        "BigQuery",
+        "Data Cleaning",
+        "Business Intelligence",
+        "R"
+      ],
+      "soft_skills": [
+        "Data Storytelling",
+        "Critical Thinking",
+        "Business Acumen",
+        "Communication",
+        "Problem Solving"
+      ],
+      "roadmap_catalog": {
+        "SQL": {
+          "weeks": "Week 1-2",
+          "title": "Advanced SQL for Analytics",
+          "description": "Master window functions (RANK, DENSE_RANK, LEAD, LAG), CTEs, complex grouping, and query profiling.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Mode Analytics SQL Tutorial", "url": "https://mode.com/sql-tutorial/" }
+          ],
+          "milestone_project": "Write SQL queries to compute Monthly Recurring Revenue (MRR) and user retention cohorts."
+        },
+        "Excel": {
+          "weeks": "Week 2-3",
+          "title": "Advanced Excel, PivotTables & XLOOKUP",
+          "description": "Learn advanced financial functions, conditional formatting, dynamic arrays, Power Query, and what-if analysis.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Microsoft Excel Training", "url": "https://support.microsoft.com/excel" }
+          ],
+          "milestone_project": "Build an executive financial budget tracker with dynamic pivot charts and automated lookups."
+        },
+        "Python": {
+          "weeks": "Week 3-4",
+          "title": "Python for Data Analysis",
+          "description": "Learn Python data structures, list/dict comprehensions, data wrangling, and working with CSV/JSON/API data.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Automate the Boring Stuff with Python", "url": "https://automatetheboringstuff.com/" }
+          ],
+          "milestone_project": "Scrape web data and process it into structured CSV files for analysis."
+        },
+        "Pandas": {
+          "weeks": "Week 4-5",
+          "title": "Data Manipulation with Pandas",
+          "description": "Master DataFrames, Series, handling missing data, groupby aggregations, merging, and reshaping data.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "10 Minutes to Pandas", "url": "https://pandas.pydata.org/docs/user_guide/10min.html" }
+          ],
+          "milestone_project": "Clean and preprocess a messy 100,000-row customer dataset with anomaly removal."
+        },
+        "NumPy": {
+          "weeks": "Week 4",
+          "title": "Numerical Computing with NumPy",
+          "description": "Learn multidimensional arrays, vectorization, mathematical operations, slicing, and linear algebra fundamentals.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "NumPy Quickstart", "url": "https://numpy.org/doc/stable/user/quickstart.html" }
+          ],
+          "milestone_project": "Implement vectorized mathematical simulations comparing speed against native Python loops."
+        },
+        "Statistics": {
+          "weeks": "Week 5-6",
+          "title": "Applied Business Statistics & A/B Testing",
+          "description": "Learn probability distributions, hypothesis testing (t-test, chi-square), confidence intervals, and correlation analysis.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Khan Academy Statistics", "url": "https://www.khanacademy.org/math/statistics-probability" }
+          ],
+          "milestone_project": "Design and interpret a randomized A/B test experiment with p-value calculation."
+        },
+        "Power BI": {
+          "weeks": "Week 7-8",
+          "title": "Interactive Dashboards in Power BI",
+          "description": "Connect diverse data sources, build DAX calculations, configure relationships, and build executive dashboards.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Microsoft Learn Power BI", "url": "https://learn.microsoft.com/en-us/training/powerplatform/power-bi" }
+          ],
+          "milestone_project": "Develop an interactive 3-page Sales Performance & KPI Dashboard with drill-through filters."
+        },
+        "Data Visualization": {
+          "weeks": "Week 6-7",
+          "title": "Visual Data Storytelling (Seaborn & Matplotlib)",
+          "description": "Select the right chart type, format color palettes, eliminate visual clutter, and build informative graphics.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "Python Data Science Handbook", "url": "https://jakevdp.github.io/PythonDataScienceHandbook/" }
+          ],
+          "milestone_project": "Generate an explanatory visualization report explaining customer churn drivers."
+        }
+      }
+    },
+    "AI/ML Engineer": {
+      "id": "aiml-engineer",
+      "title": "AI/ML Engineer",
+      "description": "Designs, trains, evaluates, and deploys machine learning and deep learning models into production environments.",
+      "category": "Artificial Intelligence",
+      "required_skills": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "Scikit-learn",
+        "NumPy",
+        "Pandas",
+        "Statistics"
+      ],
+      "preferred_skills": [
+        "PyTorch",
+        "NLP",
+        "Computer Vision",
+        "Azure AI",
+        "MLflow",
+        "Docker",
+        "Hugging Face",
+        "Feature Engineering",
+        "Model Deployment"
+      ],
+      "soft_skills": [
+        "Research Mindset",
+        "Experimental Rigor",
+        "Mathematical Thinking",
+        "Critical Analysis",
+        "Collaboration"
+      ],
+      "roadmap_catalog": {
+        "Python": {
+          "weeks": "Week 1-2",
+          "title": "Python for Scientific Computing",
+          "description": "Master vectorized computing, array indexing, performance profiling, and object-oriented ML pipelines.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "CS231n Python Tutorial", "url": "https://cs231n.github.io/python-numpy-tutorial/" }
+          ],
+          "milestone_project": "Write modular data loader pipelines and custom metric evaluation functions."
+        },
+        "NumPy": {
+          "weeks": "Week 2",
+          "title": "Linear Algebra & NumPy Arrays",
+          "description": "Matrix multiplication, eigenvalues, dot products, broadcasting, and matrix decompositions.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "3Blue1Brown Linear Algebra", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" }
+          ],
+          "milestone_project": "Implement linear regression and neural network forward pass from scratch using pure NumPy."
+        },
+        "Pandas": {
+          "weeks": "Week 2-3",
+          "title": "Feature Engineering & Data Preprocessing",
+          "description": "Handling missing features, one-hot encoding, target encoding, outlier detection, and scaling.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Kaggle Feature Engineering", "url": "https://www.kaggle.com/learn/feature-engineering" }
+          ],
+          "milestone_project": "Build an automated end-to-end feature pipeline using Scikit-learn ColumnTransformer."
+        },
+        "Statistics": {
+          "weeks": "Week 3",
+          "title": "Probability & Inferential Statistics for ML",
+          "description": "Bayes theorem, maximum likelihood estimation (MLE), loss functions, bias-variance tradeoff.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "StatQuest with Josh Starmer", "url": "https://statquest.org/" }
+          ],
+          "milestone_project": "Analyze model confidence intervals and calibrate predicted probabilities."
+        },
+        "Machine Learning": {
+          "weeks": "Week 4-5",
+          "title": "Supervised & Unsupervised Machine Learning",
+          "description": "Regression, Decision Trees, Random Forests, Gradient Boosting (XGBoost/LightGBM), K-Means, and PCA.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Coursera Machine Learning Specialization", "url": "https://www.coursera.org" }
+          ],
+          "milestone_project": "Train and optimize an ensemble classifier achieving >85% F1-score with hyperparameter tuning."
+        },
+        "Scikit-learn": {
+          "weeks": "Week 4-5",
+          "title": "Production ML Pipelines with Scikit-learn",
+          "description": "Pipelines, GridSearchCV, cross-validation, custom transformers, model evaluation curves (ROC, PR curve).",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Scikit-Learn Documentation", "url": "https://scikit-learn.org/stable/" }
+          ],
+          "milestone_project": "Deploy a serialized joblib pipeline into a lightweight inference web service."
+        },
+        "Deep Learning": {
+          "weeks": "Week 6-7",
+          "title": "Neural Networks & Backpropagation",
+          "description": "Multi-layer perceptrons, activation functions, optimizers (Adam, SGD), regularization (Dropout, BatchNorm).",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "DeepLearning.AI Specialization", "url": "https://www.deeplearning.ai/" }
+          ],
+          "milestone_project": "Build and train a custom neural network from first principles."
+        },
+        "TensorFlow": {
+          "weeks": "Week 7-8",
+          "title": "TensorFlow & Keras Deep Learning Architectures",
+          "description": "Build Convolutional Neural Networks (CNNs) for vision, Recurrent/Transformer models, and model checkpointing.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "TensorFlow Tutorials", "url": "https://www.tensorflow.org/tutorials" }
+          ],
+          "milestone_project": "Train a transfer learning model using MobileNet for real-time image classification."
+        }
+      }
+    },
+    "Java Developer": {
+      "id": "java-developer",
+      "title": "Java Developer",
+      "description": "Develops enterprise-grade, high-throughput, secure backend applications and microservices using Java and Spring Boot.",
+      "category": "Enterprise Software Engineering",
+      "required_skills": [
+        "Java",
+        "OOP",
+        "Spring Boot",
+        "SQL",
+        "JDBC",
+        "REST API",
+        "Git"
+      ],
+      "preferred_skills": [
+        "Hibernate",
+        "Spring Security",
+        "Microservices",
+        "PostgreSQL",
+        "MySQL",
+        "Docker",
+        "Maven",
+        "JUnit",
+        "Kafka"
+      ],
+      "soft_skills": [
+        "Software Architecture",
+        "Clean Code",
+        "Agile Teamwork",
+        "Problem Solving",
+        "Documentation"
+      ],
+      "roadmap_catalog": {
+        "Java": {
+          "weeks": "Week 1-2",
+          "title": "Core Java (Java 17/21) & JVM Internals",
+          "description": "Master Collections framework, Generics, Lambdas, Streams API, Multithreading, and Memory Management.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Oracle Java Documentation", "url": "https://docs.oracle.com/en/java/" },
+            { "name": "Baeldung Java Tutorials", "url": "https://www.baeldung.com/" }
+          ],
+          "milestone_project": "Build a concurrent multithreaded bank transaction simulation with thread safety."
+        },
+        "OOP": {
+          "weeks": "Week 2-3",
+          "title": "Object-Oriented Design & Clean Architecture",
+          "description": "SOLID principles, Abstract classes vs Interfaces, immutability, Factory, Builder, and Strategy patterns.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Effective Java by Joshua Bloch", "url": "https://www.oreilly.com" }
+          ],
+          "milestone_project": "Refactor a monolithic codebase into decoupled interfaces following SOLID."
+        },
+        "SQL": {
+          "weeks": "Week 3",
+          "title": "Relational Databases & Data Modeling",
+          "description": "Schema design, primary/foreign keys, joins, transactional isolation levels (ACID), and indexing.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "PostgreSQL Tutorial", "url": "https://www.postgresqltutorial.com/" }
+          ],
+          "milestone_project": "Design a 3NF normalized database schema for a university management system."
+        },
+        "JDBC": {
+          "weeks": "Week 4",
+          "title": "Java Database Connectivity (JDBC) & Connection Pooling",
+          "description": "Connection lifecycles, PreparedStatement vs Statement, transaction commit/rollback, and HikariCP connection pools.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Baeldung JDBC Guide", "url": "https://www.baeldung.com/java-jdbc" }
+          ],
+          "milestone_project": "Build a high-performance database access layer with connection pooling."
+        },
+        "Spring Boot": {
+          "weeks": "Week 5-7",
+          "title": "Spring Boot & Spring Framework Ecosystem",
+          "description": "Dependency Injection, Inversion of Control, Spring Data JPA, Hibernate ORM, and Spring Configuration.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Spring Boot Guides", "url": "https://spring.io/guides" }
+          ],
+          "milestone_project": "Develop a microservice backend with Spring Boot, Spring Data JPA, and H2/PostgreSQL."
+        },
+        "REST API": {
+          "weeks": "Week 6",
+          "title": "Enterprise REST APIs with Spring Web",
+          "description": "Build `@RestController` endpoints, DTO pattern, validation with `@Valid`, and global `@ControllerAdvice` exception handling.",
+          "priority": "High Priority",
+          "resources": [
+            { "name": "Building REST Services with Spring", "url": "https://spring.io/guides/tutorials/rest/" }
+          ],
+          "milestone_project": "Build a secure REST API with OpenAPI/Swagger documentation and custom error payloads."
+        },
+        "Git": {
+          "weeks": "Week 1",
+          "title": "Git for Enterprise Development",
+          "description": "Feature branch workflows, pull requests, resolving merge conflicts, and automated Maven CI builds.",
+          "priority": "Medium",
+          "resources": [
+            { "name": "Atlassian Git Tutorials", "url": "https://www.atlassian.com/git" }
+          ],
+          "milestone_project": "Create a GitHub repository with protected branches and GitHub Actions for Maven clean test."
+        }
+      }
+    }
+  }
+}

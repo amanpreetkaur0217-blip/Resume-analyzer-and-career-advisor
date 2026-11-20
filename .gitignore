@@ -1,0 +1,42 @@
+# Environments and Secrets
+.env
+backend/.env
+backend/venv/
+test_env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Node and Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+# Python virtual environments
+backend/.venv/
+
+# Frontend environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Build files
+backend/dist/
+backend/build/
+# ZIP files
+*.zip
+
+# Credentials and certificates
+*.pem
+*.key
